@@ -8,7 +8,7 @@ function MostrarAumento()
     var porcentaje;
     var resultado;
     sueldo = parseInt (document.getElementById("sueldo").value);
-    porcentaje = (sueldo * 10)/100;
+    porcentaje = (sueldo * 10)/100;   //ó sueldo*0.1 ó si queremos ya la suma hecha sueldo*1.1
     resultado = sueldo + porcentaje;
     (document.getElementById("resultado").value) = resultado;
 }
