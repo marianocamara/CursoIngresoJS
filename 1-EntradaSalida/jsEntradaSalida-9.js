@@ -6,12 +6,9 @@ function MostrarAumento()
 {
     var sueldo;
     var porcentaje;
-    var resultados;
+    var resultado;
     sueldo = parseInt (document.getElementById("sueldo").value);
     porcentaje = (sueldo * 10)/100;
     resultado = sueldo + porcentaje;
     (document.getElementById("resultado").value) = resultado;
-    
-
-	
 }
