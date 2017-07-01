@@ -4,8 +4,8 @@ function Mostrar()
 
     var edad;
     var estado_civil;
-    edad = parseInt (document.getElemetnById("edad").value);
-    estado_civil = (document.getElemetnById("estadoCivil").value);
+    edad = (document.getElementById("edad").value);
+    estado_civil = (document.getElementById("estadoCivil").value);
    
     if (edad<18 && estado_civil != "Soltero")
     {
