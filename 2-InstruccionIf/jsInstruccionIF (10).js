@@ -4,11 +4,17 @@ function Mostrar()
 	
 	var nota;
 	nota = Math.floor((Math.random() * 10) + 1);
-	alert (numero);
-
-	switch (nota)
+	
+	if (nota>=9)
 	{
-		case 9, 10
+		alert ("Su nota es " +nota+".s Excelente!");
 	}
-
+	else if (nota<4)
+	{
+		alert ("Su nota es " +nota+". Vamos, la proxima se puede!");
+	}
+	else
+	{
+		alert ("Su nota es " +nota+". Aprobado.");
+	}
 }//FIN DE LA FUNCIÓN
