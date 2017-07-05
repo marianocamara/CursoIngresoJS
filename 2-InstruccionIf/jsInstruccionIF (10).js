@@ -7,14 +7,17 @@ function Mostrar()
 	
 	if (nota>=9)
 	{
-		alert ("Su nota es " +nota+".s Excelente!");
-	}
-	else if (nota<4)
-	{
-		alert ("Su nota es " +nota+". Vamos, la proxima se puede!");
+		alert ("Su nota es " +nota+". Excelente!");
 	}
 	else
-	{
-		alert ("Su nota es " +nota+". Aprobado.");
+	{ 
+		if (nota<4)
+		{
+			alert ("Su nota es " +nota+". Vamos, la proxima se puede!");
+		}
+		else
+		{
+			alert ("Su nota es " +nota+". Aprobado.");
+		}
 	}
 }//FIN DE LA FUNCIÓN
