@@ -1,6 +1,8 @@
 function Mostrar()
 {
+numero = prompt ("Ingrese un numero");
 
+for ()
 
 
 

@@ -85,4 +85,45 @@ function CalcularPrecio ()
     }
     
     
+    //por Cantidad
+
+    if (lamparitas==6)
+    {
+        document.getElementById("precioDescuento").value = (lamparitas*35)*0.5;
+    }
+    else if (lamparitas==5 && marca=="ArgentinaLuz")
+    {
+        document.getElementById("precioDescuento").value = (lamparitas*35)*0.6;
+    }
+    else if (lamparitas==5)
+    {
+        document.getElementById("precioDescuento").value = (lamparitas*35)*0.7; 
+    }
+    else if (lamparitas == 4)
+    {
+        if (marca=="ArgentinaLuz" || marca=="FelipeLamparas")
+        {
+            document.getElementById("precioDescuento").value = (lamparitas*35)*0.75;
+        }
+        else
+        {
+            document.getElementById("precioDescuento").value = (lamparitas*35)*0.80;
+        }
+    }
+    else if (lamparitas==3 && marca=="ArgentinaLuz")
+    {
+        document.getElementById("precioDescuento").value = (lamparitas*35)*0.85;
+    }
+    else if (lamparitas==3 && marca=="FelipeLamparas")
+    {
+       document.getElementById("precioDescuento").value = (lamparitas*35)*0.90;         
+    }
+    else if (lamparitas==3)
+    {
+        document.getElementById("precioDescuento").value = (lamparitas*35)*0.95;
+    }
+    else
+    {
+        document.getElementById("precioDescuento").value = lamparitas*35;
+    }
 }

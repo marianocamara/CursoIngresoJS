@@ -49,6 +49,16 @@ var promedio_positivo = acumulador_positivo/contador_positivo;
 var promedio_negativo = acumulador_negativo/contador_negativo;
 var diferencia = Math.abs(contador_positivo-contador_negativo);
 
+if (contador_positivo==0)
+{
+	promedio_positivo = "No ingreso ningun numero positivo."; 
+}
+
+if (isNaN(promedio_negativo))
+{
+	promedio_negativo = "No ingreso ningun numero negativo";
+}
+
 document.write("La suma de numeros positivos es: "+acumulador_positivo+".<br/>");
 document.write("La suma de numeros negativos es: "+acumulador_negativo+".<br/>");
 document.write("La cantidad de numeros positivos es: "+contador_positivo+".<br/>");
