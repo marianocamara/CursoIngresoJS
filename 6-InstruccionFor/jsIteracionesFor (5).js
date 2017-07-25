@@ -2,7 +2,10 @@ function Mostrar()
 {
 numero = prompt ("Ingrese un numero");
 
-for ()
+for (;numero!=9;)
+{
+    numero = prompt ("Ingrese un numero");
+}
 
 
 

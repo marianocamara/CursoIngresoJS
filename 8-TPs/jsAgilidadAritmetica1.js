@@ -10,8 +10,7 @@ var respuesta;
 function comenzar()
 {
 
-var numero_1 = 
-parseInt(document.getElementById("PrimerNumero").value) =
+var numero_1 = parseInt(document.getElementById("PrimerNumero").value) 
 	
 
 }//FIN DE LA FUNCIÓN
