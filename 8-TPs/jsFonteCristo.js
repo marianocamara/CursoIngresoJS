@@ -13,20 +13,14 @@ function NumerosPares ()
 {
     numero = document.getElementById("numero").value;
    
-   if (numero>0)
-   {
-
-         for (contador=0;contador!=numero+1;)
-        {
-            if (numero%2==0)
-            {
-                contador++;
-                console.log(contador);
-            }
-        }
-
-
-   }
+    if (numero>1)
+    {
+        console.log ("La cantidad de numeros pares es: "+numero/2);
+    }
+    else
+    {
+        
+    }
 
 
 
